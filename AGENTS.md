@@ -4,6 +4,13 @@ This repository uses a human-in-the-loop workflow:
 
 ChatGPT -> GitHub project state -> human approval -> Codex implementation -> Pull Request -> human review -> merge.
 
+## Communication Language
+
+- Communicate with the user in Simplified Chinese by default.
+- All explanations, progress updates, questions, warnings, approval requests, and final reports must be written in Simplified Chinese.
+- When requesting permission to execute a command or perform an action, explain the reason in Simplified Chinese.
+- Keep code, commands, file paths, API names, error messages, and technical identifiers in their original form when appropriate.
+
 ## Before Starting Work
 
 For every implementation task:
