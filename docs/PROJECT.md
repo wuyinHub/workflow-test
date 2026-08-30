@@ -59,16 +59,18 @@ The webpage should summarize the learning structure rather than reproduce source
 
 ## Current Stage
 
-Base webpage initialized; preparing roadmap content implementation.
+Roadmap content implemented; preparing final UI polish.
 
 ## Current Priorities
 
-1. Add the approved six-stage Agent learning roadmap and source attribution.
-2. Polish visual hierarchy, responsiveness, and lightweight interaction.
+1. Polish visual hierarchy and roadmap presentation.
+2. Refine responsive behavior where useful.
+3. Add lightweight interaction only where it improves the learning experience.
 
 ## Completed
 
 - T001 — Initialized the static webpage foundation with `index.html`, `style.css`, and `script.js`; delivered through Pull Request #1 and merged into `main`.
+- T002 — Added the complete six-stage Agent learning roadmap, progression presentation, responsive styling, and source attribution; delivered through Pull Request #2 and merged into `main`.
 
 ## Notes
 
