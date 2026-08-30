@@ -91,8 +91,22 @@ h2 {
 }
 
 .roadmap__stages {
-  min-height: 1px;
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0 0;
+  padding: 0;
+  list-style: none;
 }
+
+.stage { position: relative; display: grid; grid-template-columns: 4rem 1fr; gap: 1.25rem; padding: 1.5rem; border: 1px solid #dfe5f0; border-radius: 1rem; background: #ffffff; box-shadow: 0 0.5rem 1.25rem rgb(32 58 99 / 0.05); }
+.stage:not(:last-child)::after { position: absolute; bottom: -1rem; left: 3.05rem; width: 1px; height: 1rem; background: #b7c6df; content: ""; }
+.stage__number { display: grid; place-items: center; width: 4rem; height: 4rem; border-radius: 50%; color: #ffffff; background: #2f5d9b; font-size: 1rem; font-weight: 700; letter-spacing: 0.04em; }
+.stage__content { min-width: 0; }
+.stage__label { margin-bottom: 0.25rem; color: #5573ad; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+.stage h3 { margin: 0 0 0.5rem; color: #18212f; font-size: clamp(1.25rem, 3vw, 1.6rem); line-height: 1.2; }
+.stage__content > p:not(.stage__label) { margin-bottom: 1rem; color: #526173; }
+.stage__topics { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0; padding: 0; list-style: none; }
+.stage__topics li { padding: 0.3rem 0.65rem; border: 1px solid #d7e1f0; border-radius: 999px; color: #294e80; background: #f3f6fb; font-size: 0.875rem; }
 
 .site-footer {
   padding: 1.5rem 0;
@@ -105,6 +119,11 @@ h2 {
   margin-bottom: 0;
 }
 
+.site-footer a {
+  color: #2f5d9b;
+  font-weight: 600;
+}
+
 @media (max-width: 36rem) {
   .page-shell {
     width: min(100% - 1.5rem, 70rem);
@@ -113,4 +132,8 @@ h2 {
   .section-heading {
     padding: 1.5rem;
   }
+
+  .stage { grid-template-columns: 3rem 1fr; gap: 1rem; padding: 1.25rem; }
+  .stage__number { width: 3rem; height: 3rem; font-size: 0.875rem; }
+  .stage:not(:last-child)::after { left: 2.7rem; }
 }
