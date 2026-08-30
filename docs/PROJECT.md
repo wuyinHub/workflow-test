@@ -59,19 +59,22 @@ The webpage should summarize the learning structure rather than reproduce source
 
 ## Current Stage
 
-Roadmap content implemented; preparing final UI polish.
+Planned implementation scope completed. The project is ready for final project-state review and workflow retrospective.
 
 ## Current Priorities
 
-1. Polish visual hierarchy and roadmap presentation.
-2. Refine responsive behavior where useful.
-3. Add lightweight interaction only where it improves the learning experience.
+1. Review the completed project state and confirm no implementation task remains active.
+2. Retrospect on the ChatGPT -> GitHub -> Codex -> Pull Request workflow used during T001-T003.
+3. Decide which validated workflow improvements should be incorporated into `workflow_freamwork v2`.
 
 ## Completed
 
 - T001 — Initialized the static webpage foundation with `index.html`, `style.css`, and `script.js`; delivered through Pull Request #1 and merged into `main`.
 - T002 — Added the complete six-stage Agent learning roadmap, progression presentation, responsive styling, and source attribution; delivered through Pull Request #2 and merged into `main`.
+- T003 — Completed final visual hierarchy, responsive behavior, accessibility feedback, and lightweight interaction polish; delivered through Pull Request #3 and merged into `main`.
 
 ## Notes
+
+The originally planned implementation scope is complete. New feature work should begin only after a new task is explicitly planned, approved, and placed in `tasks/active/`.
 
 Keep this document concise. It describes the current project state rather than preserving full chat history.
